@@ -14,7 +14,8 @@ switch ($animal){
         break;
     case "crocodile": 
     case "tortoise":
-    case "snake":echo "reptile";
+    case "snake":
+		echo "reptile";
         break;
     default:
         echo "Unknown";
