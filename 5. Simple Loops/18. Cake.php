@@ -1,5 +1,5 @@
 <?php
-// Exam - 03 September 2017   92/100
+// Exam - 03 September 2017   100/100
 
 $weight = intval(readline());
 $length = intval(readline());
@@ -7,19 +7,24 @@ $cakeSize = $weight * $length;
 $finished = true;
 
 while (true) {
-    $piecesOfCake = intval(readline());
-    if ($piecesOfCake == "STOP" || $piecesOfCake < 0) {
+    $piecesOfCake = readline();
+
+    if (is_numeric($piecesOfCake)) {
+        $piecesOfCake = intval($piecesOfCake);
+        $cakeSize -= $piecesOfCake;
+    }
+
+    if ($piecesOfCake === 'STOP') {
         break;
     }
-    $cakeSize -= $piecesOfCake;
 
     if ($cakeSize < 0) {
         $finished = false;
         break;
     }
 }
-if ($finished == false) {
+if ($finished === false) {
     printf("No more cake left! You need %d pieces more.", abs($cakeSize));
 } else {
-    printf("%d pieces are left.", $cakeSize);
+    printf("\n%d pieces are left.", $cakeSize);
 }
