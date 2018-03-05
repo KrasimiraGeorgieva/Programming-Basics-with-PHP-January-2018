@@ -1,4 +1,5 @@
 <?php
+// Coding 101 Exam - 24 April 2016, 04. Smart Lili
 $age = intval(readline());
 
 $priceWashingMashine = floatval(readline());

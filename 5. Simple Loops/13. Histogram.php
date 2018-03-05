@@ -1,4 +1,5 @@
 <?php
+// Coding 101 Exam - 6 March 2016, 04. Histogram
 $n = intval(readline());
 $p1 = null;
 $p2 = null;

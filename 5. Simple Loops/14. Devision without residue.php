@@ -1,4 +1,6 @@
 <?php
+// Coding 101 Exam - 26 March 2016, 04.
+
 $n = floatval(readline());
 
 $p1 = null;
