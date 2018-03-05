@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 19 March 2017 - Evening, 05.Parallelepiped
 
 $n = intval(readline());
 $rowLenght = 3 * $n + 1;

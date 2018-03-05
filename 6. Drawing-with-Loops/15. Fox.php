@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 20 November 2016 - Morning, 05. Fox
 
 $n = intval(readline());
 $rowLenght = 2 * $n + 3;

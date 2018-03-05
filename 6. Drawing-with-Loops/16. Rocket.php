@@ -1,5 +1,5 @@
 <?php
-
+// Programming Basics Exam - 20 November 2016 - Evening, 05. Rocket
 $n = intval(readline());
 $wCol = 3 * $n;
 $help = 0;

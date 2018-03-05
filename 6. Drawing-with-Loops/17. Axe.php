@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 28 August 2016, 05. Axe
 
 $n = intval(readline());
 $rowLenght = 5 * $n;
