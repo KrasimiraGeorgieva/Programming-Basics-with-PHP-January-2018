@@ -1,4 +1,5 @@
 <?php
+// Coding 101 Exam - 26 March 2016, 03.
 
 $budget = doubleval(readline());
 $season = readline();

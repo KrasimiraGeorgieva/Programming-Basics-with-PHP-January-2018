@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 17 July 2016, 03. Match Tickets
 
 $budget = doubleval(readline());
 $category = strtolower(readline());

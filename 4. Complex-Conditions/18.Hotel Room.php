@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 28 August 2016, 03. Hotel Room
 
 $month = strtolower(readline());
 $numberNights = intval(readline());
