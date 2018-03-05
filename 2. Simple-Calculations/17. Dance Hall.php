@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 23 July 2017, 01. Dance Hall
 
 $lenghtInMeters = floatval(readline());
 $widthInMeters = floatval(readline());
