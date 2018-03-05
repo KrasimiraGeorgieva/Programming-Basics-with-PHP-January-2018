@@ -1,5 +1,8 @@
 <?php
 
+// Programming Basics Exam - 17 July 2016
+// 06. Stop Number
+
 $n = intval(readline());
 $m = intval(readline());
 $s = intval(readline());

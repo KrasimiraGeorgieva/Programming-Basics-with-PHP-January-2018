@@ -1,4 +1,6 @@
 <?php
+// Coding 101 Exam - 24 April 2016
+// 06. Special Numbers
 
 $n = intval(readline());
 
