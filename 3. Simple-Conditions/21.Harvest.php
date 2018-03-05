@@ -1,4 +1,5 @@
 <?php
+// Programming Basics Exam - 17 July 2016, 02. Harvest
 
 $ereaGrapes = intval(readline());
 $grapesPerOneQuaterMeters = floatval(readline());
