@@ -23,10 +23,8 @@ $outsideVerticalRectangle = ($x < $h || $x > 2 * $h) || ($y < $h || $y > 4 * $h)
 
 if ($insideHorizontalRectangle || $insideVerticalRectangle || $onMiddleSide){
     echo "inside";
-}
-elseif ($outsideHorizontalRectangle && $outsideVerticalRectangle){
+} elseif ($outsideHorizontalRectangle && $outsideVerticalRectangle){
     echo "outside";
-}
-else {
+} else {
     echo "border";
 }
