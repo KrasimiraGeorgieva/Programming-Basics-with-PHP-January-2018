@@ -15,12 +15,10 @@ $x = doubleval(readline());
 $y = doubleval(readline());
 
 $horizontalBorder = ($x1 <= $x && $x <= $x2) && ($y == $y1 || $y == $y2);
-
 $verticalBorder = ($y1 <= $y && $y <= $y2) && ($x == $x1 || $x == $x2);
 
-if ($horizontalBorder || $verticalBorder)
-{
+if ($horizontalBorder || $verticalBorder){
     echo "Border";
-}
-else
+} else {
     echo "Inside / Outside";
+}
