@@ -5,11 +5,10 @@
 // ако въведеното число не е валидно.
 
 $number = intval(readline());
-        $inRange = $number >= 100 && $number <= 200 || $number == 0;
+$inRange = $number >= 100 && $number <= 200 || $number == 0;
 
-        if (!$inRange)
-        {
+        if (!$inRange){
             echo "invalid";
-        }
-        else
+        } else {
             echo "";
+        }
